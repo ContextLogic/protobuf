@@ -33,12 +33,13 @@ package jsonpb
 
 import (
 	"bytes"
-	"encoding/json"
 	"io"
 	"math"
 	"reflect"
 	"strings"
 	"testing"
+
+	json "github.com/json-iterator/go"
 
 	"github.com/golang/protobuf/proto"
 

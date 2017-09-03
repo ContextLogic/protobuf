@@ -33,7 +33,6 @@ package proto_test
 
 import (
 	"bytes"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"math"
@@ -43,6 +42,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	json "github.com/json-iterator/go"
 
 	. "github.com/golang/protobuf/proto"
 	. "github.com/golang/protobuf/proto/testdata"

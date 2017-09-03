@@ -264,13 +264,14 @@ To create and play with a Test object:
 package proto
 
 import (
-	"encoding/json"
 	"fmt"
 	"log"
 	"reflect"
 	"sort"
 	"strconv"
 	"sync"
+
+	json "github.com/json-iterator/go"
 )
 
 // Message is implemented by generated protocol buffer messages.

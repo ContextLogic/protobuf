@@ -37,11 +37,12 @@ package proto
 
 import (
 	"bytes"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"reflect"
 	"sort"
+
+	json "github.com/json-iterator/go"
 )
 
 // errNoMessageTypeID occurs when a protocol buffer does not have a message type ID.

@@ -40,7 +40,6 @@ package jsonpb
 
 import (
 	"bytes"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
@@ -50,6 +49,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	json "github.com/json-iterator/go"
 
 	"github.com/golang/protobuf/proto"
 
