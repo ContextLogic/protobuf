@@ -42,7 +42,7 @@ import (
 	"reflect"
 	"sort"
 
-	json "github.com/json-iterator/go"
+	json "github.com/ContextLogic/go"
 )
 
 // errNoMessageTypeID occurs when a protocol buffer does not have a message type ID.

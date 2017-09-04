@@ -271,7 +271,7 @@ import (
 	"strconv"
 	"sync"
 
-	json "github.com/json-iterator/go"
+	json "github.com/ContextLogic/go"
 )
 
 // Message is implemented by generated protocol buffer messages.

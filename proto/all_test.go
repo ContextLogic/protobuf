@@ -43,7 +43,7 @@ import (
 	"testing"
 	"time"
 
-	json "github.com/json-iterator/go"
+	json "github.com/ContextLogic/go"
 
 	. "github.com/golang/protobuf/proto"
 	. "github.com/golang/protobuf/proto/testdata"

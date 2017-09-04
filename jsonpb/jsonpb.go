@@ -50,7 +50,7 @@ import (
 	"strings"
 	"time"
 
-	json "github.com/json-iterator/go"
+	json "github.com/ContextLogic/go"
 
 	"github.com/golang/protobuf/proto"
 
@@ -1018,6 +1018,10 @@ func (u *Unmarshaler) unmarshalValue(target reflect.Value, inputValue json.RawMe
 			target.SetFloat(num)
 			return nil
 		}
+	}
+
+	if string(inputValue) == "null" {
+		return nil
 	}
 
 	// Use the encoding/json for parsing other value types.
